@@ -1,0 +1,81 @@
+/* src/components/page/MainPage6.css */
+.feed-container {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #eef2ff, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .back-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .desc {
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .empty {
+    color: #888;
+    margin-top: 3rem;
+  }
+  
+  .post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .post-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .post-info {
+    padding: 1rem;
+  }
+  
+  .post-date {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .post-text {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .clear-btn {
+    margin-top: 2rem;
+    background: #dc2626;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }

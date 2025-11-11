@@ -1,0 +1,61 @@
+/* src/components/page/MainPage4.css */
+.page-bg {
+  background: linear-gradient(to bottom, #fdf2f8, #fce7f3);
+  min-height: 100vh;
+  text-align: center;
+  padding: 3rem 2rem;
+  position: relative;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: #111827;
+  font-size: 2rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-decoration: none;
+  color: #111;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 0.8rem;
+  height: 170px;
+  object-fit: cover;
+}
+
+.back-btn {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  background: #ec4899;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.back-btn:hover {
+  background: #db2777;
+}
